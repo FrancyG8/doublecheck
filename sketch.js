@@ -45,7 +45,7 @@ function draw() {
 
   }
   if (timer == 30) {
-   rect(0, 0, windowWidth, windowHeight);
+  // rect(0, 0, windowWidth, windowHeight);
   }
 
 }

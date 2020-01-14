@@ -19,11 +19,16 @@ html {
   height: 100%;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   min-height: 100%;
   margin: 0;
   padding: 0;
   background-color: #FFCC00;
+  position: relative
 }
 
 /* Font Faces */
@@ -206,5 +211,13 @@ body {
   height: 2.5rem;
   border-radius: 40px;
   border: 2px solid black;
+}
 
+
+#OP2, #OP1 {
+  width: 80%;
+}
+
+#prog {
+  width: 80%;
 }
