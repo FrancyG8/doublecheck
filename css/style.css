@@ -8,6 +8,9 @@
   --blue: #0099FF;
   --violet: #9900FF;
   --font-light: bandeins_strangelight;
+  --font-regular: bandeins_strangeregular;
+  --font-bold: bandeins_strangebold;
+  --font-medium: bandeins_strangemedium;
 }
 
 p {
@@ -30,6 +33,10 @@ body {
   padding: 0;
   background-color: #FFCC00;
   position: relative
+}
+
+a:hover {
+  color: black;
 }
 
 /* Font Faces */
@@ -72,6 +79,72 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+/* home page */
+.navi {
+  z-index: 1000;
+}
+
+.maintitle {
+  font-family: var(--font-medium);
+  color: white;
+  font-size: 2rem;
+  margin: auto;
+  margin-left: 2rem;
+  line-height: 5rem;
+}
+
+.barratitolo {
+  line-height: 20%;
+  background-color: var(--violet);
+  border: 2px solid black;
+  vertical-align: middle;
+}
+
+.barraabout {
+  line-height: 20%;
+  background-color: white;
+  border: 2px solid black;
+  border-left: 0;
+  text-align: center;
+}
+
+.about {
+  color: black;
+  font-size: 2rem;
+  margin: auto;
+  line-height: 5rem;
+}
+
+.logo {
+  color: black;
+  font-size: 8rem;
+  margin: auto;
+  line-height: 28rem;
+}
+
+.prin {
+  border: 2px solid black;
+  border-top: 0;
+  margin: auto;
+}
+
+.desc {
+  text-align: center;
+}
+
+.sottotitolo {
+  font-size: 2rem;
+  position: relative;
+  top: -11rem;
+}
+
+.ill {
+  position: absolute;
+  top: 90%;
+}
+
+
 
 /* testo che scorre */
 .marquee {
@@ -237,7 +310,6 @@ body {
 #prog {
   width: 80%;
 }
-
 
 #right {
   min-width: 100%;
