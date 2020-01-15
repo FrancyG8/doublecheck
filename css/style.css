@@ -19,20 +19,22 @@ p {
   margin: 0;
 }
 
-html {
+html {}
+
+html, body {
   height: 100%;
 }
 
-html, body {
-  overflow-x: hidden;
+main {
+  height: 100vh;
 }
-
 body {
   min-height: 100%;
   margin: 0;
   padding: 0;
   background-color: #FFCC00;
-  position: relative
+  position: relative;
+  width: 100vw;
 }
 
 a:hover {
@@ -143,8 +145,6 @@ a:hover {
   position: absolute;
   top: 90%;
 }
-
-
 
 /* testo che scorre */
 .marquee {
