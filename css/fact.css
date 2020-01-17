@@ -27,7 +27,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--yellow);
+  background-color: #FFF;
   overflow: hidden;
 }
 
@@ -35,7 +35,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--yellow);
+  background-color: #FFF;
   position: relative;
   width: 100vw;
 }
@@ -138,8 +138,8 @@ a:hover {
 }
 
 .table td {
-  padding: 0;
   vertical-align: middle;
+  padding: 0;
 }
 
 .primariga {
@@ -186,7 +186,6 @@ a:hover {
   line-height: 2rem;
   border: 2px solid black;
   text-align: right;
-  vertical-align: middle;
 }
 
 .tempo {
@@ -213,11 +212,14 @@ a:hover {
 
 .principale {
   border-bottom: 2px solid black;
+}
+
+.Q {
   text-align: center;
 }
 
-#Q8 {
-  width: 65%;
+#Q1 {
+  width: 80%;
 }
 
 #prog {
@@ -225,72 +227,82 @@ a:hover {
   vertical-align: middle;
 }
 
-
 /* svg */
+.cls-1,
+.cls-5 {
+  fill: none;
+}
 
-  .cls-1,
-  .cls-5,
-  .cls-6 {
-    fill: none;
-  }
-  .cls-2 {
-    fill: url("#Nuovo_pattern_3");
-  }
-  .cls-3 {
-    fill: #fff;
-  }
-  .cls-3,
-  .cls-5,
-  .cls-6,
-  .cls-7 {
-    stroke: #000;
-    stroke-miterlimit: 10;
-  }
-  .cls-3,
-  .cls-5 {
-    stroke-width: 2px;
-  }
-  .cls-4 {
-    fill: #00c966;
-  }
-  .cls-7 {
-    fill: #9600ff;
-  }
+.cls-2 {
+  fill: url(#Nuovo_pattern_3);
+}
 
-  .cls-15,
-  .cls-16,
-  .cls-12,
-  .cls-13,
-  .cls-14 {
-    fill: #010101;
-  }
+.cls-3 {
+  fill: #fff;
+}
+
+.cls-3,
+.cls-5,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-4,
+.cls-9 {
+  fill: #00c966;
+}
+
+.cls-6 {
+  font-size: 20px;
+  font-family: KozGoPr6N-Regular-83pv-RKSJ-H, Kozuka Gothic Pr6N;
+}
+
+.cls-7 {
+  fill: #9600ff;
+}
+
+.cls-8 {
+  fill: #ffc900;
+}
+
+.cls-15,
+.cls-16,
+.cls-12,
+.cls-13,
+.cls-14 {
+  fill: #010101;
+}
 
 
 
-  .cls-16,
-  .cls-12,
-  .cls-13,
-  .cls-14 {
-    font-size: 25px;
-    font-family: BandeinsStrangeSemiBold, Bandeins Strange;
-  }
+.cls-16,
+.cls-12,
+.cls-13,
+.cls-14 {
+  font-size: 25px;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
 
-  .cls-10 {
-    letter-spacing: 0.015em;
-  }
+.cls-10 {
+  letter-spacing: 0.015em;
+}
 
-  .cls-11 {
-    letter-spacing: -0.00898em;
-  }
+.cls-11 {
+  letter-spacing: -0.00898em;
+}
 
-  .cls-12 {
-    letter-spacing: -0.02em;
-  }
+.cls-12 {
+  letter-spacing: -0.02em;
+}
 
-  .cls-13 {
-    letter-spacing: -0.01em;
-  }
+.cls-13 {
+  letter-spacing: -0.01em;
+}
 
-  .cls-14 {
-    letter-spacing: -0.03em;
-  }
+.cls-14 {
+  letter-spacing: -0.03em;
+}

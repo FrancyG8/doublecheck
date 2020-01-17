@@ -155,7 +155,7 @@ a:hover {
   padding: .75rem !important;
 }
 
-.imgcles {
+#imgcles {
   width: 60%;
   height: auto;
 }
@@ -267,4 +267,41 @@ a:hover {
 
 .cls-8 {
   fill: url(#pois_bianchi-3);
+}
+.cls-15,
+.cls-16,
+.cls-12,
+.cls-13,
+.cls-14 {
+  fill: #010101;
+}
+
+
+
+.cls-16,
+.cls-12,
+.cls-13,
+.cls-14 {
+  font-size: 25px;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-10 {
+  letter-spacing: 0.015em;
+}
+
+.cls-11 {
+  letter-spacing: -0.00898em;
+}
+
+.cls-12 {
+  letter-spacing: -0.02em;
+}
+
+.cls-13 {
+  letter-spacing: -0.01em;
+}
+
+.cls-14 {
+  letter-spacing: -0.03em;
 }
