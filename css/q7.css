@@ -27,7 +27,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: #FFCC00;
   overflow: hidden;
 }
 
@@ -35,7 +35,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: #FFCC00;
   position: relative;
   width: 100vw;
 }
@@ -104,7 +104,7 @@ a:hover {
 
 .rect {
   text-align: center;
-  background-color: var(--blue);
+  background-color: var(--violet);
   border: 2px solid black !important;
   margin: 0;
 }
@@ -138,8 +138,8 @@ a:hover {
 }
 
 .table td {
-  padding: 0;
   vertical-align: middle;
+  padding: 0;
 }
 
 .primariga {
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .clessidra {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 0.5px solid black;
   width: 3.5rem;
   text-align: center;
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .imgcles {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .title {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 0.5px solid black;
   padding: .75rem !important;
 }
@@ -181,16 +181,15 @@ a:hover {
 }
 
 .numero {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   width: 3.5rem;
   line-height: 2rem;
   border: 2px solid black;
   text-align: right;
-  vertical-align: middle;
 }
 
 .tempo {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 2px solid black;
   border-right: 2px solid black;
   text-align: center;
@@ -213,42 +212,42 @@ a:hover {
 
 .principale {
   border-bottom: 2px solid black;
+}
+
+.Q {
   text-align: center;
 }
 
-#Q2 {
-  width: 70%;
+#Q7 {
+  width: 80%;
 }
 
 #prog {
-  width: 50%;
+  width: 60%;
   vertical-align: middle;
 }
 
-
 /* svg */
-
 .cls-1,
 .cls-5 {
   fill: none;
 }
-
 .cls-2 {
-  fill: url(#Nuovo_pattern_3);
+  fill: url("#Nuovo_pattern_3");
 }
-
-.cls-3,
-.cls-6 {
+.cls-3 {
   fill: #fff;
 }
-
 .cls-3,
-.cls-5 {
+.cls-5,
+.cls-6 {
   stroke: #000;
   stroke-miterlimit: 10;
   stroke-width: 2px;
 }
-
 .cls-4 {
-  fill: red;
+  fill: #00c966;
+}
+.cls-6 {
+  fill: #9600ff;
 }

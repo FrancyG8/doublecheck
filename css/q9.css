@@ -27,7 +27,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: var(--yellow);
   overflow: hidden;
 }
 
@@ -35,7 +35,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: var(--yellow);
   position: relative;
   width: 100vw;
 }
@@ -104,7 +104,7 @@ a:hover {
 
 .rect {
   text-align: center;
-  background-color: var(--blue);
+  background-color: var(--violet);
   border: 2px solid black !important;
   margin: 0;
 }
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .clessidra {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 0.5px solid black;
   width: 3.5rem;
   text-align: center;
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .imgcles {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .title {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 0.5px solid black;
   padding: .75rem !important;
 }
@@ -181,7 +181,7 @@ a:hover {
 }
 
 .numero {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   width: 3.5rem;
   line-height: 2rem;
   border: 2px solid black;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .tempo {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 2px solid black;
   border-right: 2px solid black;
   text-align: center;
@@ -216,39 +216,50 @@ a:hover {
   text-align: center;
 }
 
-#Q2 {
+#Q9 {
   width: 70%;
 }
 
 #prog {
-  width: 50%;
+  width: 60%;
   vertical-align: middle;
 }
 
 
 /* svg */
 
-.cls-1,
-.cls-5 {
-  fill: none;
-}
 
-.cls-2 {
-  fill: url(#Nuovo_pattern_3);
-}
+  .cls-1,
+  .cls-5,
+  .cls-6 {
+    fill: none;
+  }
 
-.cls-3,
-.cls-6 {
-  fill: #fff;
-}
+  .cls-2 {
+    fill: url(#Nuovo_pattern_3);
+  }
 
-.cls-3,
-.cls-5 {
-  stroke: #000;
-  stroke-miterlimit: 10;
-  stroke-width: 2px;
-}
+  .cls-3 {
+    fill: #fff;
+  }
 
-.cls-4 {
-  fill: red;
-}
+  .cls-3,
+  .cls-5,
+  .cls-6,
+  .cls-7 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+  }
+
+  .cls-3,
+  .cls-5 {
+    stroke-width: 2px;
+  }
+
+  .cls-4 {
+    fill: #00c966;
+  }
+
+  .cls-7 {
+    fill: #9600ff;
+  }

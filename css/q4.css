@@ -156,7 +156,7 @@ a:hover {
 }
 
 .imgcles {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
@@ -216,7 +216,7 @@ a:hover {
   text-align: center;
 }
 
-#Q2 {
+#Q4{
   width: 70%;
 }
 
@@ -227,28 +227,30 @@ a:hover {
 
 
 /* svg */
-
 .cls-1,
 .cls-5 {
   fill: none;
 }
-
 .cls-2 {
-  fill: url(#Nuovo_pattern_3);
-}
-
-.cls-3,
-.cls-6 {
   fill: #fff;
 }
-
-.cls-3,
-.cls-5 {
+.cls-3 {
+  fill: url("#Nuovo_pattern_3");
+}
+.cls-4,
+.cls-6 {
+  fill: red;
+}
+.cls-4,
+.cls-5,
+.cls-7 {
   stroke: #000;
   stroke-miterlimit: 10;
   stroke-width: 2px;
 }
-
-.cls-4 {
-  fill: red;
+.cls-6 {
+  opacity: 0.5;
+}
+.cls-7 {
+  fill: url("#pois_bianchi");
 }

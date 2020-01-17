@@ -27,7 +27,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: var(--cyan);
   overflow: hidden;
 }
 
@@ -35,7 +35,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: var(--cyan);
   position: relative;
   width: 100vw;
 }
@@ -104,7 +104,7 @@ a:hover {
 
 .rect {
   text-align: center;
-  background-color: var(--blue);
+  background-color: var(--pink);
   border: 2px solid black !important;
   margin: 0;
 }
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .clessidra {
-  background-color: var(--pink);
+  background-color: var(--cyan);
   border: 0.5px solid black;
   width: 3.5rem;
   text-align: center;
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .imgcles {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .title {
-  background-color: var(--pink);
+  background-color: var(--cyan);
   border: 0.5px solid black;
   padding: .75rem !important;
 }
@@ -181,7 +181,7 @@ a:hover {
 }
 
 .numero {
-  background-color: var(--pink);
+  background-color: var(--cyan);
   width: 3.5rem;
   line-height: 2rem;
   border: 2px solid black;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .tempo {
-  background-color: var(--pink);
+  background-color: var(--cyan);
   border: 2px solid black;
   border-right: 2px solid black;
   text-align: center;
@@ -216,39 +216,52 @@ a:hover {
   text-align: center;
 }
 
-#Q2 {
-  width: 70%;
+#Q10{
+  width: 30%;
 }
 
 #prog {
-  width: 50%;
+  width: 60%;
   vertical-align: middle;
 }
 
 
 /* svg */
-
 .cls-1,
-.cls-5 {
+.cls-5,
+.cls-6 {
   fill: none;
 }
-
 .cls-2 {
-  fill: url(#Nuovo_pattern_3);
+  fill: url("#Nuovo_pattern_3");
 }
-
 .cls-3,
-.cls-6 {
-  fill: #fff;
+.cls-9 {
+  fill: #edc730;
 }
-
-.cls-3,
-.cls-5 {
+.cls-4 {
+  clip-path: url("#clip-path");
+}
+.cls-5,
+.cls-6,
+.cls-9 {
   stroke: #000;
+}
+.cls-5,
+.cls-6,
+.cls-8,
+.cls-9 {
   stroke-miterlimit: 10;
+}
+.cls-5,
+.cls-8,
+.cls-9 {
   stroke-width: 2px;
 }
-
-.cls-4 {
-  fill: red;
+.cls-7 {
+  clip-path: url("#clip-path-2");
+}
+.cls-8 {
+  fill: var(--cyan);
+  stroke: #222221;
 }

@@ -27,7 +27,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: var(--yellow);
   overflow: hidden;
 }
 
@@ -35,7 +35,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: var(--yellow);
   position: relative;
   width: 100vw;
 }
@@ -104,7 +104,7 @@ a:hover {
 
 .rect {
   text-align: center;
-  background-color: var(--blue);
+  background-color: var(--violet);
   border: 2px solid black !important;
   margin: 0;
 }
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .clessidra {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 0.5px solid black;
   width: 3.5rem;
   text-align: center;
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .title {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 0.5px solid black;
   padding: .75rem !important;
 }
@@ -181,7 +181,7 @@ a:hover {
 }
 
 .numero {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   width: 3.5rem;
   line-height: 2rem;
   border: 2px solid black;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .tempo {
-  background-color: var(--pink);
+  background-color: var(--yellow);
   border: 2px solid black;
   border-right: 2px solid black;
   text-align: center;
@@ -216,12 +216,12 @@ a:hover {
   text-align: center;
 }
 
-#Q2 {
+#Q5 {
   width: 70%;
 }
 
 #prog {
-  width: 50%;
+  width: 60%;
   vertical-align: middle;
 }
 
@@ -229,7 +229,8 @@ a:hover {
 /* svg */
 
 .cls-1,
-.cls-5 {
+.cls-5,
+.cls-6 {
   fill: none;
 }
 
@@ -237,18 +238,27 @@ a:hover {
   fill: url(#Nuovo_pattern_3);
 }
 
-.cls-3,
-.cls-6 {
+.cls-3 {
   fill: #fff;
 }
 
 .cls-3,
-.cls-5 {
+.cls-5,
+.cls-6,
+.cls-7 {
   stroke: #000;
   stroke-miterlimit: 10;
+}
+
+.cls-3,
+.cls-5 {
   stroke-width: 2px;
 }
 
 .cls-4 {
-  fill: red;
+  fill: var(--green);
+}
+
+.cls-7 {
+  fill: var(--violet);
 }

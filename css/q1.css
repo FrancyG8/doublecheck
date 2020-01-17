@@ -156,7 +156,7 @@ a:hover {
 }
 
 .imgcles {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 
@@ -204,7 +204,7 @@ a:hover {
 .rettangolo {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 38rem;
+  height: 90%;
   border-radius: 40px;
   border: 2px solid black;
   background: white;
@@ -214,20 +214,57 @@ a:hover {
   border-bottom: 2px solid black;
 }
 
-#OP2, #OP1 {
+.Q {
+  text-align: center;
+}
+
+#Q1 {
   width: 80%;
-}
-
-#OP1 {
-  float: right;
-  margin-right: 2rem;
-}
-
-#OP2 {
-  float: left;
-  margin-left: 1rem;
 }
 
 #prog {
   width: 50%;
+  vertical-align: middle;
+}
+
+/* svg */
+.cls-1,
+.cls-5 {
+  fill: none;
+}
+
+.cls-2 {
+  fill: url(#Nuovo_pattern_3);
+}
+
+.cls-3 {
+  fill: #fff;
+}
+
+.cls-3,
+.cls-5,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-4,
+.cls-9 {
+  fill: #00c966;
+}
+
+.cls-6 {
+  font-size: 20px;
+  font-family: KozGoPr6N-Regular-83pv-RKSJ-H, Kozuka Gothic Pr6N;
+}
+
+.cls-7 {
+  fill: #9600ff;
+}
+
+.cls-8 {
+  fill: #ffc900;
 }
