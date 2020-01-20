@@ -207,7 +207,7 @@ a:hover {
 .rettangolo-segnaposto {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 90%;
+  height: 38rem;
   /* border-radius: 40px; */
   border: 0px solid black;
   background: none;
@@ -216,39 +216,39 @@ a:hover {
 .rettangolo-bianco {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 90%;
+  height: 38rem;
   /* border-radius: 40px; */
   border: 0px solid black;
   background: white;
   position: absolute;
   top: 15%;
-  left: 1.2%;
+  left: 1%;
   z-index: 0;
 }
 
 .rettangolo-rosso {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 90%;
+  height: 38rem;
   /* border-radius: 40px; */
   border: 0px solid black;
   background: var(--green);
   position: absolute;
   top: 15%;
-  left: 1.2%;
+  left: 1%;
   z-index: 1;
 }
 
 .rettangolo-border {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 90%;
+  height: 38rem;
   /* border-radius: 40px; */
   border: 2px solid black;
   background: none;
   position: absolute;
   top: 15%;
-  left: 1.2%;
+  left: 1%;
   z-index: 4;
 }
 
