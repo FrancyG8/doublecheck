@@ -27,11 +27,20 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #FFF;
   overflow: hidden;
 }
 
-body {
+/*body*/
+#w {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  position: relative;
+  width: 100vw;
+}
+
+#r {
   min-height: 100%;
   margin: 0;
   padding: 0;
@@ -85,224 +94,101 @@ a:hover {
   font-style: normal;
 }
 
-/* testo che scorre */
-.marquee {
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  padding: 0;
+.db-r {
+  font-family: var(--font-medium);
+  font-size: 180%;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: black;
 }
 
-.marquee span {
-  margin: 0;
-  display: inline-block;
-  padding-left: 0% !important;
-  animation: marquee 5s linear infinite;
-  font-family: var(--font-light);
-  font-size: 2rem;
-}
-
-.rect {
-  text-align: center;
-  background-color: var(--violet);
-  border: 2px solid black !important;
-  margin: 0;
-}
-
-.text {
-  padding: 0;
-  color: white;
-}
-
-/* Make it move */
-@keyframes marquee {
-  10% {
-    transform: translate(100, 0);
-  }
-
-  100% {
-    transform: translate(-100%, 0);
-  }
-}
-
-/* elementi principali */
-.table {
-  margin-bottom: 0;
-  height: 100vh;
-}
-
-.table th {
-  vertical-align: middle;
-  padding: 0;
-  border: 2px solid black;
-}
-
-.table td {
-  vertical-align: middle;
-  padding: 0;
-}
-
-.primariga {
-  height: 2rem;
-  border-bottom: 2px solid black;
-}
-
-.clessidra {
-  background-color: var(--yellow);
-  border: 0.5px solid black;
-  width: 3.5rem;
-  text-align: center;
-  padding: .75rem !important;
-}
-
-#imgcles {
-  width: 60%;
-  height: auto;
-}
-
-.titoloriga {
-  font-size: 1.6rem;
-  font-family: var(--font-light);
-  margin-bottom: 0;
-  margin-left: 1rem;
-}
-
-.title {
-  background-color: var(--yellow);
-  border: 0.5px solid black;
-  padding: .75rem !important;
-}
-
-.numerotest {
-  text-align: left;
-  width: 100%;
-  height: auto;
-  padding: 0;
-}
-
-.numero {
-  background-color: var(--yellow);
-  width: 3.5rem;
-  line-height: 2rem;
-  border: 2px solid black;
-  text-align: right;
-}
-
-.tempo {
-  background-color: var(--yellow);
-  border: 2px solid black;
-  border-right: 2px solid black;
-  text-align: center;
-}
-
-.giustosbagliato {
-  border: 2px solid black;
-  border-right: 2px solid black;
-  text-align: center;
-}
-
-.rettangolo {
-  margin: 1rem auto;
-  width: 1.8rem;
-  height: 90%;
-  border-radius: 40px;
-  border: 2px solid black;
-  background: white;
-}
-
-.principale {
-  border-bottom: 2px solid black;
-}
-
-.Q {
-  text-align: center;
-}
-
-#Q1 {
-  width: 80%;
-}
-
-#prog {
-  width: 50%;
-  vertical-align: middle;
+.db-w {
+  font-family: var(--font-medium);
+  font-size: 180%;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #FFF;
 }
 
 /* svg */
-.cls-1,
+.cls-1 {
+  fill: #fc0;
+}
+
+.cls-2,
 .cls-5 {
-  fill: none;
-}
-
-.cls-2 {
-  fill: url(#Nuovo_pattern_3);
-}
-
-.cls-3 {
   fill: #fff;
 }
 
-.cls-3,
-.cls-5,
-.cls-7,
-.cls-8,
+.cls-5 {
+  font-size: 40px;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-4 {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-3 {
+  fill: url(#pois_bianchi);
+}
+
+.cls-8 {
+  fill: none;
+}
+
 .cls-9 {
   stroke: #000;
   stroke-miterlimit: 10;
   stroke-width: 2px;
 }
 
-.cls-4,
-.cls-9 {
-  fill: #00c966;
-}
-
 .cls-6 {
-  font-size: 20px;
-  font-family: KozGoPr6N-Regular-83pv-RKSJ-H, Kozuka Gothic Pr6N;
+  letter-spacing: 0.01799em;
 }
 
 .cls-7 {
-  fill: #9600ff;
-}
-
-.cls-8 {
-  fill: #ffc900;
-}
-
-.cls-15,
-.cls-16,
-.cls-12,
-.cls-13,
-.cls-14 {
-  fill: #010101;
-}
-
-
-
-.cls-16,
-.cls-12,
-.cls-13,
-.cls-14 {
-  font-size: 25px;
-  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+  letter-spacing: -0.01799em;
 }
 
 .cls-10 {
-  letter-spacing: 0.015em;
+  font-size: 40px;
+  fill: #1d1d1b;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
 }
 
 .cls-11 {
-  letter-spacing: -0.00898em;
+  fill: url(#Nuovo_pattern_3);
 }
 
 .cls-12 {
-  letter-spacing: -0.02em;
+  fill: #fff;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
 }
 
-.cls-13 {
-  letter-spacing: -0.01em;
+#HINT {
+  width: 80%;
+  margin: auto;
 }
 
-.cls-14 {
-  letter-spacing: -0.03em;
+#HINTB {
+  width: 50%;
+  margin: auto;
+}
+
+.fact {
+  text-align: center;
+  height: 80vh;
+  margin-top: 5%;
+}
+
+#next1 {
+  width: 60%;
+  height: auto;
+  margin-top: -45%;
+  z-index: 100;
 }
