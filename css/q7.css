@@ -202,11 +202,10 @@ a:hover {
 }
 
 /* css relativo alla barra della tempo */
-
 .rettangolo-segnaposto {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 38rem;
+  height: 70%;
   /* border-radius: 40px; */
   border: 0px solid black;
   background: none;
@@ -215,12 +214,12 @@ a:hover {
 .rettangolo-bianco {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 38rem;
+  height: 70%;
   /* border-radius: 40px; */
   border: 0px solid black;
   background: white;
   position: absolute;
-  top: 15%;
+  top: 13%;
   left: 1%;
   z-index: 0;
 }
@@ -228,12 +227,12 @@ a:hover {
 .rettangolo-rosso {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 38rem;
+  height: 70%;
   /* border-radius: 40px; */
   border: 0px solid black;
   background: var(--green);
   position: absolute;
-  top: 15%;
+  top: 13%;
   left: 1%;
   z-index: 1;
 }
@@ -241,12 +240,12 @@ a:hover {
 .rettangolo-border {
   margin: 1rem auto;
   width: 1.8rem;
-  height: 38rem;
+  height: 70%;
   /* border-radius: 40px; */
   border: 2px solid black;
   background: none;
   position: absolute;
-  top: 15%;
+  top: 13%;
   left: 1%;
   z-index: 4;
 }
