@@ -153,6 +153,7 @@ footer .container-fluid {
   border-bottom: 3px solid black;
   z-index: 100;
   position: relative;
+
 }
 
 .title1 {
@@ -171,7 +172,7 @@ footer .container-fluid {
 .title3 {
   font-family: var(--font-semibold);
   color: black;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .logo {
@@ -235,6 +236,7 @@ footer .container-fluid {
 .start {
   margin-top: 2rem;
   text-align: center;
+  z-index: 999;
 }
 
 .immagini {
@@ -442,4 +444,27 @@ footer .container-fluid {
   margin-top: -11%;
   margin-left: 80%;
   width: 40%;
+}
+
+/* Transizione */
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
