@@ -49,6 +49,9 @@ body, html {
   width: 100vw;
 }
 
+#warning {
+    background-color: var(--red);
+}
 a:hover {
   color: black;
 }
@@ -171,7 +174,7 @@ a:hover {
 }
 
 .cls-13 {
-  fill: #FFF;
+  stroke: #FFF;
 }
 
 #HINT {
@@ -201,4 +204,15 @@ a:hover {
   height: auto;
   margin-top: -45%;
   z-index: 100;
+}
+
+#war {
+  padding-top: 5%;
+}
+
+
+
+.buttons {
+  width: 80%;
+  float: right;
 }
