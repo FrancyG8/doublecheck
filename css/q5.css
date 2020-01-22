@@ -256,6 +256,10 @@ a:hover {
   text-align: center;
 }
 
+.Q {
+  cursor: pointer;
+}
+
 #Q5 {
   width: 70%;
 }

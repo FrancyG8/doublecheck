@@ -258,6 +258,10 @@ a:hover {
   text-align: center;
 }
 
+.Q {
+  cursor: pointer;
+}
+
 #Q12 {
   width: 70%;
 }

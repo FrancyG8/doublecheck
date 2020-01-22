@@ -257,6 +257,7 @@ a:hover {
 
 .Q {
   text-align: center;
+  cursor: pointer;
 }
 
 #Q1 {

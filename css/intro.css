@@ -141,6 +141,26 @@ footer .container-fluid {
   position: relative;
 }
 
+.bodyright {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  position: relative;
+}
+
+.bodywrong {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  position: relative;
+}
+
 /* home page */
 
 .logobar {
@@ -444,6 +464,14 @@ footer .container-fluid {
   margin-top: -11%;
   margin-left: 80%;
   width: 40%;
+}
+
+#right {
+  width: 50%;
+}
+
+#wrong {
+  width: 50%;
 }
 
 /* Transizione */

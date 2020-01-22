@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  
+
 //--Home
   var currentX = '';
   var currentY = '';
@@ -25,7 +25,9 @@ $(document).ready(function() {
 
 //--Barra del tempo movimento
   var tempo = gsap.timeline();
+  //--Trasformazione della barra
   tempo.to(".rettangolo-rosso", {duration: 30, scaleY: 0, transformOrigin: "bottom", backgroundColor: "#FF0000"});
+  //--Lampeggio da 15sec in poi
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 15, opacity: 0}, "<"); //1
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 1}, "<"); //2
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 0}, "<"); //3
@@ -62,5 +64,15 @@ $(document).ready(function() {
 window.addEventListener("beforeunload", function () {
     document.body.classList.add("animate-out");
   });
+
+
+//--Click function
+$('#RIGHT01').click(function() {
+  window.open('../right-wrong/right1.html', '_self');
+});
+$('#WRONG01').click(function() {
+  window.open('../right-wrong/wrong1.html', '_self');
+});
+
 
 });
