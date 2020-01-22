@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 1800){
+  if(frameCount >= 150){
     tempoScaduto();
   }
 }
@@ -25,5 +25,5 @@ function windowResized() {
 // }
 
 function tempoScaduto(){
-  window.open('../right-wrong/timeisup1.html', '_self');
+  window.open('../fact/fact1w.html', '_self');
 }

@@ -25,5 +25,5 @@ function windowResized() {
 // }
 
 function tempoScaduto(){
-  window.open('../right-wrong/timeisup1.html', '_self');
+  window.open('../right-wrong/timeisup2.html', '_self');
 }
