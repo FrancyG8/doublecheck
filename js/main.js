@@ -67,11 +67,20 @@ window.addEventListener("beforeunload", function () {
 
 
 //--Click function
+//--Question 1
 $('#RIGHT01').click(function() {
   window.open('../right-wrong/right1.html', '_self');
 });
 $('#WRONG01').click(function() {
   window.open('../right-wrong/wrong1.html', '_self');
+});
+
+//--Question 2
+$('#RIGHT02').click(function() {
+  window.open('../right-wrong/right2.html', '_self');
+});
+$('#WRONG02').click(function() {
+  window.open('../right-wrong/wrong2.html', '_self');
 });
 
 
