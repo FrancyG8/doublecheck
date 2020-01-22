@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 410){
+  if(frameCount >= 360){
     tempoScaduto();
   }
 }
