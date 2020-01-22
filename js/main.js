@@ -1,5 +1,7 @@
 $(document).ready(function() {
-//home
+
+  
+//--Home
   var currentX = '';
   var currentY = '';
   var movementConstant = .015;
@@ -19,6 +21,7 @@ $(document).ready(function() {
   	  $(el).css('top', newY + 'px');
     });
   });
+
 
 //--Barra del tempo movimento
   var tempo = gsap.timeline();
