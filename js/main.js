@@ -27,7 +27,7 @@ $(document).ready(function() {
   var tempo = gsap.timeline();
   //--Trasformazione della barra
   tempo.to(".rettangolo-rosso", {duration: 30, scaleY: 0, transformOrigin: "bottom", backgroundColor: "#FF0000"});
-  //--Lampeggio da 15sec in poi
+  // --Lampeggio da 15sec in poi
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 15, opacity: 0}, "<"); //1
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 1}, "<"); //2
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 0}, "<"); //3
