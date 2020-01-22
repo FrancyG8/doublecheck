@@ -83,5 +83,13 @@ $('#WRONG02').click(function() {
   window.open('../right-wrong/wrong2.html', '_self');
 });
 
+//--Question 3
+$('#RIGHT03').click(function() {
+  window.open('../right-wrong/right3.html', '_self');
+});
+$('#WRONG03').click(function() {
+  window.open('../right-wrong/wrong3.html', '_self');
+});
+
 
 });
