@@ -179,4 +179,12 @@ $(document).ready(function() {
     window.open('../right-wrong/wrong7.html', '_self');
   });
 
+  //--Question 8
+  $('#RIGHT08').click(function() {
+    window.open('../right-wrong/right8.html', '_self');
+  });
+  $('#WRONG08').click(function() {
+    window.open('../right-wrong/wrong8.html', '_self');
+  });
+
 });
