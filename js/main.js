@@ -124,21 +124,40 @@ $(document).ready(function() {
   });
 
   //--Question 6
+  var flag01 = 0;
+  var flag02 = 0;
+  var flag03 = 0;
+  var flag04 = 0;
   $('#RETINOcatalonia01').hide();
   $('#RETINOcatalonia02').hide();
   $('#RETINOcatalonia03').hide();
   $('#RETINOcatalonia04').hide();
   $('#RIGHT06primo').click(function() {
     $('#RETINOcatalonia01').show();
+    flag01 = 1;
+    if (flag01 == 1 && flag02 == 1 && flag03 == 1 && flag04 == 1) {
+      window.open('../right-wrong/right6.html', '_self');
+    }
   });
   $('#RIGHT06secondo').click(function() {
     $('#RETINOcatalonia02').show();
+    flag02 = 1;
+    if (flag01 == 1 && flag02 == 1 && flag03 == 1 && flag04 == 1) {
+      window.open('../right-wrong/right6.html', '_self');
+    }
   });
   $('#RIGHT06terzo').click(function() {
     $('#RETINOcatalonia03').show();
+    flag03 = 1;
+    if (flag01 == 1 && flag02 == 1 && flag03 == 1 && flag04 == 1) {
+      window.open('../right-wrong/right6.html', '_self');
   });
   $('#RIGHT06quarto').click(function() {
     $('#RETINOcatalonia04').show();
+    flag04 = 1;
+    if (flag01 == 1 && flag02 == 1 && flag03 == 1 && flag04 == 1) {
+      window.open('../right-wrong/right6.html', '_self');
+    }
   });
   $('#WRONG06').click(function() {
     window.open('../right-wrong/wrong6.html', '_self');
