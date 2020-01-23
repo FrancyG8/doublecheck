@@ -80,7 +80,7 @@ $(document).ready(function() {
     window.open('../right-wrong/right2.html', '_self');
   });
   $('#WRONG02').click(function() {
-  window.open('../right-wrong/wrong2.html', '_self');
+    window.open('../right-wrong/wrong2.html', '_self');
   });
   var tempo = gsap.timeline(); //--Rettangolo che pulsa nel fact
   tempo.to("#ZOOMhint2", {duration: 0.5, delay: 0.5, opacity: 0});
@@ -240,6 +240,5 @@ $(document).ready(function() {
   tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
   tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
   tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
-
 
 });
