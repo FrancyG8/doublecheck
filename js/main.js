@@ -151,6 +151,7 @@ $(document).ready(function() {
     flag03 = 1;
     if (flag01 == 1 && flag02 == 1 && flag03 == 1 && flag04 == 1) {
       window.open('../right-wrong/right6.html', '_self');
+    }
   });
   $('#RIGHT06quarto').click(function() {
     $('#RETINOcatalonia04').show();
@@ -163,11 +164,19 @@ $(document).ready(function() {
     window.open('../right-wrong/wrong6.html', '_self');
   });
   var tempo = gsap.timeline(); //--Rettangolo che pulsa nel fact
-  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0});
-  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
-  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
-  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
-  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
-  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint6", {duration: 0.5, delay: 0.5, opacity: 0});
+  tempo.to("#ZOOMhint6", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint6", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint6", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint6", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint6", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+
+  //--Question 7
+  $('#RIGHT07').click(function() {
+    window.open('../right-wrong/right7.html', '_self');
+  });
+  $('#WRONG07').click(function() {
+    window.open('../right-wrong/wrong7.html', '_self');
+  });
 
 });
