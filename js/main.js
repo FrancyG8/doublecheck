@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-//--Home
+//--PARALLAX
   var currentX = '';
   var currentY = '';
   var movementConstant = .015;
@@ -23,7 +23,7 @@ $(document).ready(function() {
   });
 
 
-//--Barra del tempo movimento
+//--BARRA TEMPO
   var tempo = gsap.timeline();
   //--Trasformazione della barra
   tempo.to(".rettangolo-rosso", {duration: 30, scaleY: 0, transformOrigin: "bottom", backgroundColor: "#FF0000"});
@@ -60,36 +60,95 @@ $(document).ready(function() {
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 1}, "<"); //30
 
 
-//--Transizione
-window.addEventListener("beforeunload", function () {
+//--TRANSIZIONE
+  window.addEventListener("beforeunload", function () {
     document.body.classList.add("animate-out");
   });
 
 
-//--Click function
-//--Question 1
-$('#RIGHT01').click(function() {
-  window.open('../right-wrong/right1.html', '_self');
-});
-$('#WRONG01').click(function() {
-  window.open('../right-wrong/wrong1.html', '_self');
-});
+//--CLICK FUNCTION
+  //--Question 1
+  $('#RIGHT01').click(function() {
+    window.open('../right-wrong/right1.html', '_self');
+  });
+  $('#WRONG01').click(function() {
+    window.open('../right-wrong/wrong1.html', '_self');
+  });
 
-//--Question 2
-$('#RIGHT02').click(function() {
-  window.open('../right-wrong/right2.html', '_self');
-});
-$('#WRONG02').click(function() {
+  //--Question 2
+  $('#RIGHT02').click(function() {
+    window.open('../right-wrong/right2.html', '_self');
+  });
+  $('#WRONG02').click(function() {
   window.open('../right-wrong/wrong2.html', '_self');
-});
+  });
+  var tempo = gsap.timeline(); //--Rettangolo che pulsa nel fact
+  tempo.to("#ZOOMhint2", {duration: 0.5, delay: 0.5, opacity: 0});
+  tempo.to("#ZOOMhint2", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint2", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint2", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint2", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint2", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
 
-//--Question 3
-$('#RIGHT03').click(function() {
-  window.open('../right-wrong/right3.html', '_self');
-});
-$('#WRONG03').click(function() {
-  window.open('../right-wrong/wrong3.html', '_self');
-});
+  //--Question 3
+  $('#RIGHT03').click(function() {
+    window.open('../right-wrong/right3.html', '_self');
+  });
+  $('#WRONG03').click(function() {
+    window.open('../right-wrong/wrong3.html', '_self');
+  });
 
+  //--Question 4
+  $('#RETINO04').hide();
+  $('#RIGHT04').click(function() {
+    window.open('../right-wrong/right4.html', '_self');
+    $('#RETINO04').fadeIn();
+  });
+  $('#WRONG04').click(function() {
+    window.open('../right-wrong/wrong4.html', '_self');
+  });
+  var tempo = gsap.timeline(); //--Rettangolo che pulsa nel fact
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0});
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+
+  //--Question 5
+  $('#RIGHT05').click(function() {
+    window.open('../right-wrong/right5.html', '_self');
+  });
+  $('#WRONG05').click(function() {
+    window.open('../right-wrong/wrong5.html', '_self');
+  });
+
+  //--Question 6
+  $('#RETINOcatalonia01').hide();
+  $('#RETINOcatalonia02').hide();
+  $('#RETINOcatalonia03').hide();
+  $('#RETINOcatalonia04').hide();
+  $('#RIGHT06primo').click(function() {
+    $('#RETINOcatalonia01').show();
+  });
+  $('#RIGHT06secondo').click(function() {
+    $('#RETINOcatalonia02').show();
+  });
+  $('#RIGHT06terzo').click(function() {
+    $('#RETINOcatalonia03').show();
+  });
+  $('#RIGHT06quarto').click(function() {
+    $('#RETINOcatalonia04').show();
+  });
+  $('#WRONG06').click(function() {
+    window.open('../right-wrong/wrong6.html', '_self');
+  });
+  var tempo = gsap.timeline(); //--Rettangolo che pulsa nel fact
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0});
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint4", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
 
 });

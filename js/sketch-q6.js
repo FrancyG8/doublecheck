@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 400){ //controllare in base alla connessione
+  if(frameCount >= 1800){
     tempoScaduto();
   }
 }
@@ -25,5 +25,5 @@ function windowResized() {
 // }
 
 function tempoScaduto(){
-  window.open('./q/q1.html', '_self');
+  window.open('../right-wrong/timeisup6.html', '_self');
 }
