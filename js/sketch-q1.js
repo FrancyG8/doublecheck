@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 1800){ //--Davvero il framerate è legato alla connessione?!
+  if(frameCount >= 3600){ //--Davvero il framerate è legato alla connessione?!
     tempoScaduto();
   } else {
     console.log(frameCount);
