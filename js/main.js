@@ -187,4 +187,59 @@ $(document).ready(function() {
     window.open('../right-wrong/wrong8.html', '_self');
   });
 
+  //--Question 9
+  $('#RIGHT09').click(function() {
+    window.open('../right-wrong/right9.html', '_self');
+  });
+  $('#WRONG09').click(function() {
+    window.open('../right-wrong/wrong9.html', '_self');
+  });
+
+  //--Question 10
+  $('#RIGHT10').click(function() {
+    window.open('../right-wrong/right10.html', '_self');
+  });
+  $('#WRONG10').click(function() {
+    window.open('../right-wrong/wrong10.html', '_self');
+  });
+
+  //--Question 11
+  $('#RIGHT11').click(function() {
+    window.open('../right-wrong/right11.html', '_self');
+  });
+  $('#WRONG11').click(function() {
+    window.open('../right-wrong/wrong11.html', '_self');
+  });
+
+  //--Question 12
+  var merkel01 = 0;
+  var merkel02 = 0;
+  $('#RETINOmerkel1').hide();
+  $('#RETINOmerkel2').hide();
+  $('#merkelOK1').click(function() {
+    $('#RETINOmerkel1').show();
+    merkel01 = 1;
+    if (merkel01 == 1 && merkel02 == 1) {
+      window.open('../right-wrong/right12.html', '_self');
+    }
+  });
+  $('#merkelOK2').click(function() {
+    $('#RETINOmerkel2').show();
+    merkel02 = 1;
+    if (merkel01 == 1 && merkel02 == 1) {
+      window.open('../right-wrong/right12.html', '_self');
+    }
+  });
+  $('#merkelNO').click(function() {
+    window.open('../right-wrong/wrong12.html', '_self');
+  });
+  var tempo = gsap.timeline(); //--Rettangolo che pulsa nel fact
+  tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 0});
+  tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+  tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
+  tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
+
+
 });
