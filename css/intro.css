@@ -193,6 +193,10 @@ footer .container-fluid {
   margin: 0;
 }
 
+a:hover.sottolineatura {
+  text-decoration: none;
+}
+
 .title2 {
   font-family: var(--font-var);
   color: black;
