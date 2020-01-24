@@ -1,5 +1,7 @@
 /* main */
 :root {
+  --black: #000000;
+  --white: #ffffff;
   --yellow: #FFCC00;
   --red: #FF0000;
   --pink: #FF99CC;
@@ -11,6 +13,9 @@
   --font-regular: bandeins_strangeregular;
   --font-bold: bandeins_strangebold;
   --font-medium: bandeins_strangemedium;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
 }
 
 p {
@@ -306,8 +311,6 @@ a:hover {
   fill: #010101;
 }
 
-
-
 .cls-16,
 .cls-12,
 .cls-13,
@@ -340,6 +343,99 @@ a:hover {
   fill: #FFF;
   stroke: none;
 }
+/* cls-1 = cls-31 da svg fact2 */
+  .cls-31 {
+    fill: #f9c;
+  }
+
+  .cls-31,
+  .cls-32 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+  }
+
+  .cls-32 {
+    fill: none;
+  }
+
+  .cls-33 {
+    stroke: #FFFFFF;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    fill: none;
+  }
+
+  .cls-34 {
+    fill: #FFFFFF;
+    opacity: 0.2;
+  }
+
+/* classi fact 1 */
+/* ex cls-1 */
+.cls-18 {
+  fill: #fc0;
+}
+
+.cls-19,
+.cls-22 {
+  fill: #fff;
+}
+
+.cls-22 {
+  font-size: 40px;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-21 {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-20 {
+  fill: url(#pois_bianchi);
+}
+
+.cls-25 {
+  fill: none;
+}
+
+.cls-26 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-23 {
+  letter-spacing: 0.01799em;
+}
+
+.cls-24 {
+  letter-spacing: -0.01799em;
+}
+
+.cls-27 {
+  font-size: 40px;
+  fill: #1d1d1b;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-28 {
+  fill: url(#Nuovo_pattern_3);
+}
+
+.cls-29 {
+  fill: #fff;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-30 {
+  stroke: #FFF;
+}
+
 /* Transizione */
 
 .animate-in {

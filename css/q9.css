@@ -1,5 +1,7 @@
 /* main */
 :root {
+  --black: #000000;
+  --white: #ffffff;
   --yellow: #FFCC00;
   --red: #FF0000;
   --pink: #FF99CC;
@@ -11,6 +13,9 @@
   --font-regular: bandeins_strangeregular;
   --font-bold: bandeins_strangebold;
   --font-medium: bandeins_strangemedium;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
 }
 
 p {
