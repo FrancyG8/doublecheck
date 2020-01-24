@@ -1,5 +1,7 @@
 /* main */
 :root {
+  --black: #000000;
+  --white: #ffffff;
   --yellow: #FFCC00;
   --red: #FF0000;
   --pink: #FF99CC;
@@ -11,36 +13,9 @@
   --font-regular: bandeins_strangeregular;
   --font-bold: bandeins_strangebold;
   --font-medium: bandeins_strangemedium;
-}
-
-p {
-  font-size: 2rem;
-  font-family: bandeinsstrangeregular;
-  margin: 0;
-}
-
-html {
-  height: 100%;
-}
-
-body, html {
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #FFCC00;
-  overflow: hidden;
-}
-
-body {
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #FFCC00;
-  position: relative;
-}
-
-a:hover {
-  color: black;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
 }
 
 /* Font Faces */
@@ -82,6 +57,76 @@ a:hover {
     url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+/*principali*/
+p {
+  font-size: 2rem;
+  font-family: bandeinsstrangeregular;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body, html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFCC00;
+  overflow: hidden;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFCC00;
+  position: relative;
+}
+
+a:hover {
+  color: black;
+}
+
+/*body*/
+#w {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  position: relative;
+  width: 100vw;
+}
+
+#r {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  position: relative;
+  width: 100vw;
+}
+
+.db-r {
+  font-family: var(--font-var);
+  font-size: 180%;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: black;
+}
+
+.db-w {
+  font-family: var(--font-var);
+  font-size: 180%;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #FFF;
+}
+
+#warning {
+  background-color: var(--red);
 }
 
 /* testo che scorre */
@@ -349,6 +394,103 @@ a:hover {
   fill: #fff;
   stroke: none;
 }
+
+/* classi fact 1 */
+/* ex cls-1 */
+.cls-18 {
+  fill: #fc0;
+}
+
+.cls-19,
+.cls-22 {
+  fill: #fff;
+}
+
+.cls-22 {
+  font-size: 40px;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-21 {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-20 {
+  fill: url(#pois_bianchi);
+}
+
+.cls-25 {
+  fill: none;
+}
+
+.cls-26 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-23 {
+  letter-spacing: 0.01799em;
+}
+
+.cls-24 {
+  letter-spacing: -0.01799em;
+}
+
+.cls-27 {
+  font-size: 40px;
+  fill: #1d1d1b;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-28 {
+  fill: url(#Nuovo_pattern_3);
+}
+
+.cls-29 {
+  fill: #fff;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-30 {
+  stroke: #FFF;
+}
+
+/* classi right */
+.bodyright {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  position: relative;
+}
+
+.bodywrong {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  position: relative;
+}
+
+.bodytime {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--red);
+  position: relative;
+}
+
 /* Transizione */
 .animate-in {
   -webkit-animation: fadeIn .5s ease-in;
