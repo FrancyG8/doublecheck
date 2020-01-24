@@ -25,5 +25,5 @@ function windowResized() {
 // }
 
 function tempoScaduto(){
-  window.open('./q/q1.html', '_self');
+  window.open('./q/q1.html?dummy=test', '_self');
 }

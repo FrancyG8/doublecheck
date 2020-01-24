@@ -19,3 +19,12 @@ function windowResized() {
 function tempoScaduto(){
   window.open('../right-wrong/timeisup1.html', '_self');
 }
+
+var url_string = window.location.href;
+var url = new URL(url_string);
+
+var check = url.searchParams.get("dummy")
+
+if ( check == "test" ) {
+  console.log("è giusto!!!")
+}
