@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 
 //--PARALLAX
+
   var currentX = '';
   var currentY = '';
   var movementConstant = .015;
@@ -24,6 +25,7 @@ $(document).ready(function() {
 
 
 //--BARRA TEMPO
+
   var tempo = gsap.timeline();
   //--Trasformazione della barra
   tempo.to(".rettangolo-rosso", {duration: 30, scaleY: 0, transformOrigin: "bottom", backgroundColor: "#FF0000"});
@@ -61,39 +63,87 @@ $(document).ready(function() {
 
 
 //--TRANSIZIONE
+
   window.addEventListener("beforeunload", function () {
     document.body.classList.add("animate-out");
   });
 
 
 //--CLICK FUNCTION
+
   var giusto = "1";
   var sbagliato = "0";
   var tempofinito = "0";
 
-  //--Question 1
+  var clickright = 0;
+  var clickwrong = 0;
+
+  //--QUESTION O1
+
   //delay nel time over
-  $('#results').hide();
-  $('#lightbox').hide();
-  setTimeout(function() {
-    $('#results').fadeIn();
-  } , 6000);
-  setTimeout(function() {
-      $('#overlay').fadeOut();
-  }, 9000);
+
+  // $('#results').hide();
+  // $('#lightbox').hide();
+  // setTimeout(function() {
+  //   $('#results').fadeIn();
+  // } , 6000);
+  // setTimeout(function() {
+  //     $('#overlay').fadeOut();
+  // }, 9000);
+
   // $('.detrump').click(function() {
   // $('.trump').fadeOut();
   // });
+
   //comandi dei tasti
+  $('#QUESTION01').show(); //Domanda #1
+  $('#RIGHT-01').hide(); //Avviso Right
+  $('#WRONG-01').hide(); //Avviso Wrong
+  $('#FACT01R').hide(); //Fact Right
+  $('#FACT01W').hide(); //Fact Wrong
+  $('#TIMEUP-01').hide(); //Timeout
+
+  //Opzione click corretto
   $('#RIGHT01').click(function() {
-    window.open('../right-wrong/right1.html?q1=' + giusto, '_self');
-
+    clickright = 1;
+    $('#QUESTION01').hide();
+    $('#RIGHT-01').fadeIn();
+    setTimeout(function() {
+      $('#FACT01R').fadeIn();
+    } , 1800);
+    $('#next1').click(function() {
+    window.open('../q/q2.html?q1=' + giusto, '_self');
+    });
   });
+
+  //Opzione click sbagliato
   $('#WRONG01').click(function() {
-    window.open('../right-wrong/wrong1.html?q1=' + sbagliato, '_self');
+    clickwrong = 1;
+    $('#QUESTION01').hide();
+    $('#WRONG-01').fadeIn();
+    setTimeout(function() {
+      $('#FACT01W').fadeIn();
+    } , 1800);
+    $('#next1').click(function() {
+    window.open('../q/q2.html?q1=' + sbagliato, '_self');
+    });
   });
 
-  //--Question 2
+  //Opzione fine del tempo
+  if (clickright == 0 && clickwrong == 0) {
+    setTimeout(function() {
+      $('#TIMEUP-01').fadeIn();
+    } , 3000);
+    setTimeout(function() {
+      $('#FACT01W').fadeIn();
+    } , 1800);
+    $('#next1').click(function() {
+    window.open('../q/q2.html?q1=' + sbagliato, '_self');
+    });
+  };
+
+  //--QUESTION 2
+
   $('#RIGHT02').click(function() {
     window.open('../right-wrong/right2.html', '_self');
   });

@@ -460,6 +460,168 @@ a:hover {
   stroke: #FFF;
 }
 
+/* Right 01 */
+.cls-31 {
+  fill: none;
+}
+
+.cls-32 {
+  fill: #fff;
+}
+
+.cls-32,
+.cls-33,
+.cls-34 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-33,
+.cls-35 {
+  fill: url("#Nuovo_pattern_3");
+}
+
+.cls-36 {
+  font-size: 115.32317px;
+  font-family: BandeinsStrangeBoldExtendedHalf, Bandeins Strange;
+}
+
+.cls-37 {
+  letter-spacing: -0.01199em;
+}
+
+.cls-38 {
+  letter-spacing: -0.01299em;
+}
+
+.cls-39 {
+  letter-spacing: 0.014em;
+}
+
+.cls-40 {
+  letter-spacing: 0.00699em;
+}
+
+/* Wrong 01 */
+.cls-41 {
+  fill: none;
+}
+
+.cls-51,
+.cls-42,
+.cls-45 {
+  fill: #fff;
+}
+
+.cls-43,
+.cls-44,
+.cls-45 {
+  stroke: #fff;
+}
+
+.cls-43,
+.cls-44,
+.cls-45,
+.cls-46 {
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-44,
+.cls-46 {
+  fill: url(#pois_bianchi);
+}
+
+.cls-46 {
+  stroke: url(#pois_bianchi-5);
+}
+
+.cls-51,
+.cls-47 {
+  font-size: 115.32317px;
+  font-family: BandeinsStrangeBoldExtendedHalf, Bandeins Strange;
+}
+
+.cls-48 {
+  letter-spacing: 0.002em;
+}
+
+.cls-49 {
+  letter-spacing: -0.04399em;
+}
+
+.cls-50 {
+  letter-spacing: -0.01299em;
+}
+
+/* Time is up 01 */
+.cls-52 {
+  fill: none;
+}
+
+.cls-53,
+.cls-55,
+.cls-58 {
+  fill: #fff;
+}
+
+.cls-54 {
+  fill: red;
+}
+
+.cls-54,
+.cls-55,
+.cls-56 {
+  stroke: #fff;
+}
+
+.cls-54,
+.cls-55,
+.cls-56,
+.cls-57 {
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-56,
+.cls-57 {
+  fill: url(#pois_bianchi);
+}
+
+.cls-57 {
+  stroke: url(#pois_bianchi-5);
+}
+
+.cls-58 {
+  font-size: 115.32px;
+  font-family: BandeinsStrangeBoldExtendedHalf, Bandeins Strange;
+}
+
+.cls-59 {
+  letter-spacing: 0.01em;
+}
+
+.cls-60 {
+  letter-spacing: 0.02em;
+}
+
+.cls-61 {
+  letter-spacing: 0em;
+}
+
+.cls-62 {
+  letter-spacing: -0.02em;
+}
+
+.cls-63 {
+  letter-spacing: 0em;
+}
+
+.cls-64 {
+  letter-spacing: -0.01em;
+}
+
 /* classi right */
 .bodyright {
   min-height: 100%;
