@@ -9,7 +9,7 @@
   <meta name="author" content="Group 01">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="all">
-  <link rel="favicon" type="image/x-icon" href="#">
+  <link rel="icon" href="../assets/favicon.png" sizes="16x16" type="image/png">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- style and js -->
@@ -23,7 +23,18 @@
   <script src="../js/sketch-q4.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
-
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://densitydesign.github.io/teaching-dd15/course-results/es03/group01">
+  <meta property="og:title" content="doublecheck">
+  <meta property="og:description" content="Can you recognize visual misinformation? Take this quiz to discover it!">
+  <meta property="og:image" content="./assets/IMAGE-SHARE.jpg">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://densitydesign.github.io/teaching-dd15/course-results/es03/group01">
+  <meta property="twitter:title" content="doublecheck">
+  <meta property="twitter:description" content="Can you recognize visual misinformation? Take this quiz to discover it!">
+  <meta property="twitter:image" content="./assets/IMAGE-SHARE.jpg">
 </head>
 
 <body class="animate-in">
@@ -34,8 +45,21 @@
         <thead>
           <tr>
             <th class="rect" colspan="4" scope="col">
-              <p class="marquee"><span class="text">Time is up! Time is up! Time is up! Time is up!
-                </span></p>
+              <div class="ticker-wrap">
+                  <div class="ticker">
+                    <div class="ticker__item">It's just an image. Come on! </div>
+                    <div class="ticker__item"> Make the right choice. </div>
+                    <div class="ticker__item">Hurry up, the clock is ticking! </div>
+                    <div class="ticker__item">What is the right answer? </div>
+                    <div class="ticker__item">You don't want to make a mistake, don't you? </div>
+                    <div class="ticker__item">Hurry up!</div>
+                    <div class="ticker__item">Easter egg.</div>
+                    <div class="ticker__item">Time is running out!</div>
+                    <div class="ticker__item">You have few seconds left.</div>
+                    <div class="ticker__item">Time is almost over! </div>
+                    <div class="ticker__item">Give you answer, be quick! </div>
+                  </div>
+                </div>
             </th>
           </tr>
         </thead>
@@ -53,7 +77,7 @@
             </th>
             <!-- titolo -->
             <td colspan="2" sclass="title" scope="col">
-              <p class="titoloriga"> Select the <span class="boldd">area containing the manipulated detail</span></p>
+              <p class="titoloriga gradiente"> Select the <span class="boldd">area</span> containing the <span class="boldd"><span class="underline3">manipulated</span> detail</span></p>
             </td>
             <!-- quadrato numero -->
             <td class="numero" scope="col">
@@ -709,8 +733,7 @@
                     <path class="cls-2"
                       d="M309.41924,825.24578a7.48922,7.48922,0,0,1,2.4502,3.0376,9.92426,9.92426,0,0,1,.88769,4.2002,9.674,9.674,0,0,1-.875,4.16259,7.13583,7.13583,0,0,1-2.42578,2.92481,6.04268,6.04268,0,0,1-3.5,1.0625,6.21362,6.21362,0,0,1-3.57422-1.0874,7.51135,7.51135,0,0,1-2.52539-2.96241,9.13226,9.13226,0,0,1-.9248-4.10009,9.40952,9.40952,0,0,1,.9375-4.1753,7.7882,7.7882,0,0,1,2.5498-3.0498,6.05007,6.05007,0,0,1,3.53711-1.125A5.83947,5.83947,0,0,1,309.41924,825.24578Zm-5.46289,2.65039a5.35071,5.35071,0,0,0-1.51172,2,6.18292,6.18292,0,0,0-.5625,2.58741,6.03865,6.03865,0,0,0,.54981,2.5498,5.0214,5.0214,0,0,0,1.4873,1.92529,3.25964,3.25964,0,0,0,2.03711.72461,3.04361,3.04361,0,0,0,1.95019-.6997,4.67357,4.67357,0,0,0,1.375-1.89991,6.9522,6.9522,0,0,0-.02441-5.23779,5.179,5.179,0,0,0-1.40039-1.9751,2.89388,2.89388,0,0,0-1.90039-.7373A3.15351,3.15351,0,0,0,303.95635,827.89617Z" />
                     <path class="cls-2" d="M315.00615,830.15838v-2.6499H316.681a1.43723,1.43723,0,0,0,1.0625-.4126,1.40534,1.40534,0,0,0,.41308-1.0376v-1.7998h3v16.125h-3v-10.2251Z" />
-                    <path class="cls-2"
-                      d="M327.19365,839.92108a6.50541,6.50541,0,0,1-2.28711-2.6626,8.75436,8.75436,0,0,1-.82519-3.875,11.6757,11.6757,0,0,1,1.13769-5.5249,7.04918,7.04918,0,0,1,2.86231-3.0376,7.59522,7.59522,0,0,1,3.59961-.9126,8.16316,8.16316,0,0,1,2.5625.375,5.6604,5.6604,0,0,1,1.8125.92529l-1.4502,2.52491a7.934,7.934,0,0,0-1.5-.7002,5.29653,5.29653,0,0,0-1.5-.1748,4.03111,4.03111,0,0,0-1.83691.4624,5.33629,5.33629,0,0,0-1.54981,1.1626,2.8568,2.8568,0,0,0-.76269,1.3999,2.85122,2.85122,0,0,1,1.3623-.8374,6.72815,6.72815,0,0,1,1.96289-.2627,5.72959,5.72959,0,0,1,2.97461.80029,5.85242,5.85242,0,0,1,2.1377,2.1875,6.101,6.101,0,0,1,.78711,3.0625,5.79369,5.79369,0,0,1-.83692,3.02491,6.219,6.219,0,0,1-5.33789,3.0249A5.89391,5.89391,0,0,1,327.19365,839.92108Zm4.92481-2.3501a3.44724,3.44724,0,0,0,1.22558-1.17481,2.87363,2.87363,0,0,0,0-3.125,3.45264,3.45264,0,0,0-1.22558-1.17529,3.18964,3.18964,0,0,0-3.22461,0,3.45276,3.45276,0,0,0-1.22559,1.17529,2.87368,2.87368,0,0,0,0,3.125,3.44735,3.44735,0,0,0,1.22559,1.17481,3.18964,3.18964,0,0,0,3.22461,0Z" />
+                    <path class="cls-2"d="M327.19365,839.92108a6.50541,6.50541,0,0,1-2.28711-2.6626,8.75436,8.75436,0,0,1-.82519-3.875,11.6757,11.6757,0,0,1,1.13769-5.5249,7.04918,7.04918,0,0,1,2.86231-3.0376,7.59522,7.59522,0,0,1,3.59961-.9126,8.16316,8.16316,0,0,1,2.5625.375,5.6604,5.6604,0,0,1,1.8125.92529l-1.4502,2.52491a7.934,7.934,0,0,0-1.5-.7002,5.29653,5.29653,0,0,0-1.5-.1748,4.03111,4.03111,0,0,0-1.83691.4624,5.33629,5.33629,0,0,0-1.54981,1.1626,2.8568,2.8568,0,0,0-.76269,1.3999,2.85122,2.85122,0,0,1,1.3623-.8374,6.72815,6.72815,0,0,1,1.96289-.2627,5.72959,5.72959,0,0,1,2.97461.80029,5.85242,5.85242,0,0,1,2.1377,2.1875,6.101,6.101,0,0,1,.78711,3.0625,5.79369,5.79369,0,0,1-.83692,3.02491,6.219,6.219,0,0,1-5.33789,3.0249A5.89391,5.89391,0,0,1,327.19365,839.92108Zm4.92481-2.3501a3.44724,3.44724,0,0,0,1.22558-1.17481,2.87363,2.87363,0,0,0,0-3.125,3.45264,3.45264,0,0,0-1.22558-1.17529,3.18964,3.18964,0,0,0-3.22461,0,3.45276,3.45276,0,0,0-1.22559,1.17529,2.87368,2.87368,0,0,0,0,3.125,3.44735,3.44735,0,0,0,1.22559,1.17481,3.18964,3.18964,0,0,0,3.22461,0Z" />
                   </g>
                   <g id="RIGHT04">
                     <image width="384" height="252" transform="translate(615.85541 416.04949) scale(0.75775)" xlink:href="../assets/Make-America-White-Again/07-parte-13.jpg" />
@@ -765,8 +788,8 @@
 
             <!-- Progressione -->
             <td class="giustosbagliato" scope="row">
-              <svg id="prog" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 38.02618 753.18203">
-                <defs>
+              <svg class="prog" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 38.02618 753.18203">
+                <!-- <defs>
                   <pattern id="Nuovo_pattern_3" data-name="Nuovo pattern 3" width="110" height="110" patternTransform="translate(293.91243 687.41618) scale(1 0.90671)" patternUnits="userSpaceOnUse" viewBox="0 0 110 110">
                     <rect class="cls-1" width="110" height="110" />
                     <circle cx="110" cy="110" r="1.32" />
@@ -1583,7 +1606,7 @@
                     <circle cx="110" r="1.32" />
                     <circle r="1.32" />
                   </pattern>
-                </defs>
+                </defs> -->
 
                 <g id="QUESTION12">
                   <rect class="cls-5" x="0.992" y="706.85034" width="36.02749" height="45.19763" rx="17.85827" transform="translate(38.0115 1458.8983) rotate(-180)" />
@@ -1613,13 +1636,13 @@
                   <rect class=" cls-1 cls-5 " x="0.992" y="193.69724" width="36.02749" height="45.19763" rx="17.85827" transform="translate(38.0115 432.59211) rotate(180)" />
                 </g>
                 <g id="QUESTION3">
-                  <rect class="cls-1 cls-5 " x="0.992" y="129.75982" width="36.02749" height="45.19763" rx="17.85827" transform="translate(38.0115 304.71726) rotate(180)" />
+                  <rect class="cls-18" x="0.992" y="129.75982" width="36.02749" height="45.19763" rx="17.85827" transform="translate(38.0115 304.71726) rotate(180)" />
                 </g>
                 <g id="QUESTION2">
-                  <rect class="cls-1 cls-5 " x="0.992" y="65.82239" width="36.02749" height="45.19763" rx="17.85827" transform="translate(38.0115 176.84241) rotate(-180)" />
+                  <rect class="cls-18 " x="0.992" y="65.82239" width="36.02749" height="45.19763" rx="17.85827" transform="translate(38.0115 176.84241) rotate(-180)" />
                 </g>
                 <g id="QUESTION1">
-                  <rect class="cls-1 cls-5" x="0.992" y="1.21933" width="36.02749" height="45.19763" rx="17.85827" transform="translate(38.0115 47.63629) rotate(180)" />
+                  <rect class="cls-18" x="0.992" y="1.21933" width="36.02749" height="45.19763" rx="17.85827" transform="translate(38.0115 47.63629) rotate(180)" />
                 </g>
                 <g id="TEXTURE">
                   <path class="cls-3"

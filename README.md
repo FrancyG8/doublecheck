@@ -1,2 +1,1 @@
-# doublecheck
-Meravigliosissimo quiz anti-manipolazione
+# doublecheck-pagine

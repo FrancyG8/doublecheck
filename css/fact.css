@@ -16,6 +16,7 @@
   --font-semibold: bandeins_strangesemi_bold;
   --font-var: bandeins_strangeSBdExfull;
   --font-varbold: bandeins_strangeBdExfull;
+  --font-varhalf: bandeins_strangeBdExhalf;
 }
 
 p {
@@ -33,6 +34,18 @@ body, html {
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+footer .container-fluid {
+  position: fixed;
+  left: 22%;
+  top: 91%;
+}
+
+.nextbu {
+  position: fixed;
+  top: 90%;
+  z-index: 1000;
 }
 
 /*body*/
@@ -119,6 +132,15 @@ a:hover {
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'bandeins_strangeBdExhalf';
+    src: url('bandeinsstrangeboldextendedhalf-webfont.woff2') format('woff2'),
+         url('bandeinsstrangeboldextendedhalf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .db-r {
   font-family: var(--font-var);
   font-size: 180%;
@@ -156,6 +178,13 @@ a:hover {
   stroke-width: 2px;
 }
 
+.cls-14 {
+  stroke: #000;
+  fill: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
 .cls-3 {
   fill: url(#pois_bianchi);
 }
@@ -174,6 +203,12 @@ a:hover {
   letter-spacing: 0.01799em;
 }
 
+.cls-16 {
+  letter-spacing: 0.01799em;
+  stroke: #000;
+  stroke-width: 1px;
+}
+
 .cls-7 {
   letter-spacing: -0.01799em;
 }
@@ -181,7 +216,7 @@ a:hover {
 .cls-10 {
   font-size: 40px;
   fill: #1d1d1b;
-  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+  font-family: BandeinsStrangeBold, Bandeins Strange;
 }
 
 .cls-11 {
@@ -195,8 +230,272 @@ a:hover {
   stroke-width: 2px;
 }
 
+.cls-15 {
+  fill: #000;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.cls-17 {
+  fill: #000;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
 .cls-13 {
   stroke: #FFF;
+}
+
+/* fact2r */
+.cls-18 {
+  fill: #f9c;
+}
+
+.cls-18,
+.cls-19 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-19 {
+  fill: none;
+}
+
+.cls-20 {
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.cls-21 {
+  fill: #FFFFFF;
+  opacity: 0.2;
+}
+
+.cls-20b {
+  stroke: #000000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.cls-21b {
+  fill: #000000;
+  opacity: 0.2;
+}
+
+/* fact3r */
+.cls-22 {
+  fill: aqua;
+}
+
+.cls-22,
+.cls-23 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-23 {
+  fill: none;
+}
+
+/* fact5r */
+.cls-24 {
+  fill: #fc0;
+}
+
+.cls-24,
+.cls-25,
+.cls-26 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.cls-24,
+.cls-26 {
+  stroke-width: 2px;
+}
+
+.cls-25,
+.cls-26 {
+  fill: none;
+}
+
+.cls-25 {
+  stroke-width: 3px;
+}
+
+/* fact7r */
+.cls-27,
+.cls-29 {
+  fill: none;
+}
+
+.cls-28 {
+  fill: #fc0;
+}
+
+.cls-28,
+.cls-29 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-30 {
+  clip-path: url("#clip-path");
+}
+
+.cls-31 {
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.cls-32 {
+  fill: #FFFFFF;
+  opacity: 0.2;
+}
+
+/* fact8r */
+.cls-33 {
+  fill: #fc0;
+}
+
+.cls-33,
+.cls-34 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-34 {
+  fill: none;
+}
+
+/* fact12r */
+.cls-35,
+.cls-37,
+.cls-39 {
+  fill: none;
+}
+
+.cls-36 {
+  fill: #ff97cc;
+}
+
+.cls-36,
+.cls-37 {
+  stroke: #000;
+}
+
+.cls-36,
+.cls-37,
+.cls-39 {
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-38 {
+  clip-path: url("#clip-path");
+}
+
+.cls-39 {
+  stroke: #fff;
+}
+
+.cls-40 {
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.cls-41 {
+  fill: #FFFFFF;
+  opacity: 0.2;
+}
+
+/* warning */
+.cls-42 {
+  fill: #fff;
+}
+
+.cls-42,
+.cls-43 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-43 {
+  fill: #fc0;
+}
+
+/* bottoni warning */
+.cls-56 {
+  fill: none;
+}
+
+.cls-54,
+.cls-55,
+.cls-49 {
+  fill: #fff;
+  stroke: 0;
+}
+
+.cls-57 {
+  fill: url(#pois_bianchi);
+}
+
+.cls-50,
+.cls-44 {
+  fill: red;
+}
+
+.cls-44,
+.cls-49 {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-50,
+.cls-45 {
+  font-size: 40px;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-46 {
+  letter-spacing: 0.01799em;
+}
+
+.cls-47 {
+  letter-spacing: -0.01799em;
+}
+
+.cls-48 {
+  fill: url(#pois_bianchi-3);
+}
+
+.cls-51 {
+  letter-spacing: 0.00801em;
+}
+
+.cls-52 {
+  letter-spacing: -0.00701em;
+}
+
+.cls-100 {
+  font-family: bandeinsstrangelight;
+}
+
+.cls-101{
+  font-family: bandeins_strangebold;
 }
 
 #HINT {
@@ -217,26 +516,34 @@ a:hover {
 
 .fact {
   text-align: center;
+  height: 80vh;
   margin-top: 5%;
-  height: 70vh;
 }
 
 #next1 {
-  width: 1%;
+  width: 60%;
   height: auto;
+  z-index: 100;
+  cursor: pointer;
+}
+
+#NEXTW {
+  cursor: pointer;
+}
+
+#SKIPW {
+  cursor: pointer;
 }
 
 #war {
   padding-top: 5%;
 }
 
-.nextb {
-  height: 20vh;
-}
-
 .buttons {
-  width: 90%;
+  width: 20%;
   float: right;
+  position: fixed;
+  left: 79%;
 }
 
 /* Transizione */
@@ -292,7 +599,7 @@ a:hover {
     width: 63%;
     height: auto;
     float: right;
-    margin-top: 5rem;
+    margin-bottom: 0.5rem;
     margin-right: 4rem;
   }
 
@@ -300,4 +607,58 @@ a:hover {
     display: block;
     vertical-align: bottom;
   }
+
+  #HINT {
+    width: 75%;
+    margin: auto;
+  }
+
+  footer .container-fluid {
+    position: fixed;
+    left: 17.5%;
+    bottom: -1%;
+  }
+}
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+
+  #next1 {
+    width: 100%;
+    margin-right: 1rem;
+    float: right;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    margin-right: 4rem;
+  }
+
+  #HINT {
+    width: 80%;
+    margin: 3rem auto;
+  }
+
+  #HINTB {
+    width: 60%;
+    margin: 3rem auto;
+  }
+
+  #HINTC {
+    width: 80%;
+    margin:  4rem auto;
+  }
+
+  #war {
+    padding-top: 20%;
+  }
+
+
+  .buttons {
+    width: 30%;
+    float: right;
+    position: fixed;
+    left: 68%;
+    top: 90%;
+  }
+
+
 }

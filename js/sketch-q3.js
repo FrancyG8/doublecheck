@@ -1,4 +1,4 @@
-let fr = 60;
+let fr = 50;
 
 function preload() {}
 
@@ -7,23 +7,29 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 3600){
+  if (frameCount >= 4250) {
     tempoScaduto();
   }
 }
+
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-// function rispostaSbagliata(){
-//   window.open('../right-wrong/wrong1.html', '_self');
-// }
-//
-// function rispostaGiusta(){
-//   window.open('../right-wrong/right1.html', '_self');
-// }
+function tempoScaduto() {
+  var risul2 = parseInt(check2, 10);
+  let sbagliato3 = risul2 + 0;
+  window.open('../right-wrong/timeisup3.html?q3=' + sbagliato3, '_self');
+}
 
-function tempoScaduto(){
-  window.open('../right-wrong/timeisup3.html', '_self');
+var url_string = window.location.href;
+var url = new URL(url_string);
+
+var check2 = url.searchParams.get("q2");
+
+if (check2 == 2) {
+  console.log('ok');
+} else if (check2 < 2) {
+  console.log('no');
 }
